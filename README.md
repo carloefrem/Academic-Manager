@@ -35,6 +35,23 @@ The application is built using **object-oriented programming (OOP)** principles 
 ---
 
 ## Project Structure
+Academic-Manager/
+│
+├── Main.java # Application entry point
+├── User.java # Abstract base user class
+├── Student.java # Student-specific functionality
+├── Teacher.java # Teacher-specific functionality
+│
+├── Course.java # Course data model
+├── Section.java # Section management
+├── Grade.java # Grade handling
+├── Assignment.java # Assignment management
+├── Date.java # Date utility class
+│
+├── UserManager.java # Authentication & data handling
+│
+├── users.csv # User credentials storage
+└── README.md
 ---
 
 ## Usage
